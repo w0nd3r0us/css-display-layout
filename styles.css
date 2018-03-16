@@ -10,7 +10,7 @@ body {
 
 header {
   text-align: center;
-  background-color: darkgrey;
+  background-color: grey;
   color: white;
 }
 
@@ -31,8 +31,58 @@ ul {
 
 li {
   display: inline-block;
-  background-color: grey;
+  background-color: lightgrey;
   padding: 7px;
   text-decoration: none;
   color: white;
+}
+
+.topbar {
+  margin: 2px 10px;
+  padding: 10px;
+  background: #99ffcc;
+  text-align: left;
+}
+
+span {
+  text-decoration: underline;
+  text-decoration-color: yellow;
+  font-weight: bold;
+}
+
+div {
+  margin: auto;
+  text-align: center;
+}
+
+.photo {
+  margin: 5px 2px;
+  display: inline-block;
+}
+
+h2 {
+  font-size: 16px;
+  margin: 0;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  background: yellow;
+  text-align: center;
+}
+
+.photo a {
+  color: blue;
+}
+
+footer {
+  width: 100%;
+  position: relative;
+  bottom: 0;
+  background: black;
+  color: white;
+  text-align: center;
+}
+
+h3 {
+  margin: 0;
+  padding: 10px;
 }
